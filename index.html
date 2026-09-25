@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpendWise Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="logo">SpendWise</div>
+      <nav class="nav">
+        <a class="nav-item active" href="#">📊 Dashboard</a>
+        <a class="nav-item" href="#">💳 Transactions</a>
+        <a class="nav-item" href="#">📈 Analytics</a>
+        <a class="nav-item" href="#">🎯 Budgets</a>
+        <a class="nav-item" href="#">⚙️ Settings</a>
+      </nav>
+      <div class="user">
+        <span>Beatrice M.</span>
+        <small>Free Plan</small>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <div class="header-left">
+          <h1>Overview</h1>
+          <p>Track your spending, save smarter</p>
+        </div>
+        <div class="header-right">
+          <button class="btn-primary">+ Add Expense</button>
+        </div>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <div class="card-top"><h3>Food</h3><span>🍔</span></div>
+          <h2>KSh 12,400</h2>
+          <p class="muted">32% of budget • 18 trans</p>
+          <div class="progress"><div style="width:72%"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><h3>Transport</h3><span>🚌</span></div>
+          <h2>KSh 4,200</h2>
+          <p class="muted">15% of budget • 22 trans</p>
+          <div class="progress"><div style="width:45%"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><h3>Rent</h3><span>🏠</span></div>
+          <h2>KSh 18,000</h2>
+          <p class="muted">Fixed • Due 5th Sept</p>
+          <div class="progress"><div style="width:100%"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><h3>Entertainment</h3><span>🎬</span></div>
+          <h2>KSh 3,800</h2>
+          <p class="muted">12% of budget • 6 trans</p>
+          <div class="progress"><div style="width:30%"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><h3>Savings</h3><span>💰</span></div>
+          <h2>KSh 25,000</h2>
+          <p class="muted">Goal: 40k • 62% done</p>
+          <div class="progress"><div style="width:62%"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><h3>Utilities</h3><span>💡</span></div>
+          <h2>KSh 2,950</h2>
+          <p class="muted">Water + Power + WiFi</p>
+          <div class="progress"><div style="width:55%"></div></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
