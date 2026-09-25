@@ -3,7 +3,7 @@
 ## What I Built
 A personal finance dashboard called SpendWise. It shows spending overview for 6 categories: Food, Transport, Rent, Entertainment, Savings, and Utilities. This is Week 4 assignment focusing on layout using CSS Grid and Flexbox and theming.
 
-Live Demo: https://YOUR-USERNAME.github.io/SPENDWISE/
+Live Demo: https://bp548468-blip.github.io/SPENDWISE/
 
 ## Files in this Repo
 
